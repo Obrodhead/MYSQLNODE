@@ -1,5 +1,5 @@
 # MYSQLNODE
-inventory checker
+This is an inventory checker!
 PURPOSE
 Bamazon is a Mysql inventory and sales managemnet utility using the CLI and node backend. It gives the user ability to interact with inventory in 3 windows
 

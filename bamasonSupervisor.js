@@ -107,7 +107,7 @@ function newOrder() {
         if(answer.newChoice){
             supervisorOptions();
         } else {
-            console.log("Thanks for using Bamazon Good Bye")
+            console.log("Thanks for using Bamazon! :)")
             connection.end();
         }
     });    

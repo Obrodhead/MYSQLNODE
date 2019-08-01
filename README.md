@@ -5,7 +5,7 @@ Bamazon is a Mysql inventory and sales managemnet utility using the CLI and node
 
 -bamazon customer -bamazon manager -bamazon supervisor
 
-USAGE
+USAGE:
 The application utilizes a mysql database with the file included with node dependencies that will need to be installed to run the application successfully.(npm i _). When installed, the application is started by three different inputs for each view:
 
 node bamazonCustomer node bamazonManager node bamazonSupervisor

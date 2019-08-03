@@ -185,6 +185,4 @@ function startQuestion() {
             } else {
                 console.log("Thanks for using Bamazon Manager View, Good Bye");
                 connection.end();
-            }
-    
-          });
+            }})}

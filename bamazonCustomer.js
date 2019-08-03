@@ -57,11 +57,11 @@ function startQuestion() {
 
         connection.query("SELECT * FROM products WHERE id = ?", [answer.buyID], function(err,result){ 
             if (!result.length) {
-                console.log("That is not a valid ID, Please enter a valid ID");
+                console.log("That is not a valid ID, enter a valid ID");
                 startQuestion();
             } 
             else if (answer.howMany > result[0].stock_quantity) {
-                console.log("insufficient quantity available try again");
+                console.log("quantity not available try again");
                 showItems();
             } else {
                 moneySpent = answer.howMany * result[0].price;

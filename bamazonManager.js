@@ -1,7 +1,7 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 var Table = require('cli-table2');
-// connectng to the mysql database 
+// connects to the mysql database 
 var connection = mysql.createConnection({
   host: "localhost",
   port: 8889,
@@ -14,7 +14,7 @@ connection.connect(function(err) {
   if (err) throw err;
   
 });
-// populating items from the sql database
+// populates items from the sql database
 function viewProducts() {
     connection.query("SELECT * From products", function(err, results){
         if (err) throw err;
